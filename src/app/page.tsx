@@ -90,11 +90,11 @@ export default function ResumePage() {
           </SectionErrorBoundary>
 
           <div className="space-y-8 print:space-y-4">
-            <SectionErrorBoundary sectionName="Summary">
+            {/* <SectionErrorBoundary sectionName="Summary">
               <Suspense fallback={<SectionSkeleton lines={2} />}>
                 <Summary summary={RESUME_DATA.summary} />
               </Suspense>
-            </SectionErrorBoundary>
+            </SectionErrorBoundary> */}
 
             <SectionErrorBoundary sectionName="Work Experience">
               <Suspense fallback={<SectionSkeleton lines={6} />}>
