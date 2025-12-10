@@ -11,20 +11,20 @@ export const RESUME_DATA: ResumeData = {
 
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/67813549",
+  personalWebsiteUrl: "https://joao.mat.br",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "contato@joao.mat.br",
+    tel: "+55 (21) 97459-6733",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/joaopedrofreire",
         icon: "github",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/joaopedromf/",
         icon: "linkedin",
       },
     ],
@@ -47,8 +47,11 @@ export const RESUME_DATA: ResumeData = {
       end: null,
       description: (
         <>
-          Working on internal AI agents platform allowing marketing specialists
-          to create AI workflows.
+          <ul className="list-inside list-disc">
+            <li>Designing and refining complex sampling plans for institutional statistical surveys.</li>
+            <li>Developing and applying statistical models for calibration weight generation for survey estimates.</li>
+            <li>Performing data criticism, validation, and imputation to ensure the quality and consistency of survey information.</li>
+          </ul>
         </>
       ),
     },
@@ -62,15 +65,9 @@ export const RESUME_DATA: ResumeData = {
       description: (
         <>
           <ul className="list-inside list-disc">
-            <li>
-            Develop and monitor credit risk models for credit card and personal loan portfolios.
-            </li>
-            <li>
-            Conduct research and performance analysis to improve existing models.
-            </li>
-            <li>
-            Deployed models in Azure Cloud (Data Factory, Functions, Databricks) for production and monitoring.
-            </li>
+            <li>Develop and monitor credit risk models for credit card and personal loan portfolios.</li>
+            <li>Conduct research and performance analysis to improve existing models.</li>
+            <li>Deployed models in Azure Cloud (Data Factory, Functions, Databricks) for production and monitoring.</li>
             <li>Deploy models to production on Databricks and design automated monitoring routines.</li>
           </ul>
         </>
@@ -85,84 +82,80 @@ export const RESUME_DATA: ResumeData = {
       end: "2024",
       description: (
         <>
-        <ul className="list-inside list-disc">
-          <li>
-          Developed internal risk capital models covering underwriting, operational, legal, and lottery risks.
-          </li>
-          <li>
-          Applied advanced statistical methods such as Generalized Linear Models (GLM), Bayesian inference, and Monte Carlo simulation.
-          </li>
-          <li>
-          Deployed models in Azure Cloud (Data Factory, Functions, Databricks) for production and monitoring.
-          </li>
-          <li>Built automated ETL pipelines and dashboards in Power BI and R Shiny for ongoing supervision.</li>
-          <li>Conducted financial risk and volatility modeling to analyze variations in technical assumptions (mortality, persistency, etc.).</li>
-        </ul>
-        </>
-      ),
-    },
-    {
-      company: "Proffer",
-      link: "https://proffer.com.br",
-      badges: [],
-      title: "Data Scientist",
-      start: "2023",
-      end: "2023",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
           <ul className="list-inside list-disc">
             <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
+              Developed internal risk capital models covering underwriting, operational, legal, and lottery risks.
             </li>
             <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
+              Applied advanced statistical methods such as Generalized Linear Models (GLM), Bayesian inference, and Monte Carlo simulation.
             </li>
             <li>
-              Led development teams across multiple successful client projects
+              Deployed models in Azure Cloud (Data Factory, Functions, Databricks) for production and monitoring.
             </li>
+            <li>Built automated ETL pipelines and dashboards in Power BI and R Shiny for ongoing supervision.</li>
+            <li>Conducted financial risk and volatility modeling to analyze variations in technical assumptions (mortality, persistency, etc.).</li>
           </ul>
         </>
       ),
     },
-    {
-      company: "Mutual",
-      link: "https://mutual.club",
-      badges: [],
-      title: "Data Science Intern",
-      start: "2022",
-      end: "2023",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
+    // {
+    //   company: "Proffer",
+    //   link: "https://proffer.com.br",
+    //   badges: [],
+    //   title: "Data Scientist",
+    //   start: "2023",
+    //   end: "2023",
+    //   description: (
+    //     <>
+    //       Successfully transitioned from mobile to full-stack development while
+    //       leading distributed teams.
+    //       <ul className="list-inside list-disc">
+    //         <li>
+    //           Led frontend team at Evercast, building real-time platform
+    //           supporting 30+ users per room with HD streaming and collaboration
+    //           tools
+    //         </li>
+    //         <li>
+    //           Developed offline-first Android app for DKMS, improving donor
+    //           registration process
+    //         </li>
+    //         <li>
+    //           Led development teams across multiple successful client projects
+    //         </li>
+    //       </ul>
+    //     </>
+    //   ),
+    // },
+    // {
+    //   company: "Mutual",
+    //   link: "https://mutual.club",
+    //   badges: [],
+    //   title: "Data Science Intern",
+    //   start: "2022",
+    //   end: "2023",
+    //   description: (
+    //     <>
+    //       First Android developer, grew and led a team of 15+ engineers while
+    //       establishing engineering culture.
+    //       <ul className="list-inside list-disc">
+    //         <li>
+    //           Developed apps for major Polish companies including LOT, Polskie
+    //           Radio, and Agora
+    //         </li>
+    //         <li>Built and mentored high-performing mobile development team</li>
+    //       </ul>
+    //     </>
+    //   ),
+    // },
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Data Science",
+    "Data Engineering",
+    "Statistics",
+    "Machine Learning",
+    "Python",
+    "R",
+    "SQL",
   ],
   projects: [
     {
@@ -186,16 +179,6 @@ export const RESUME_DATA: ResumeData = {
       link: {
         label: "mobilidade.rio",
         href: "https://mobilidade.rio/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
       },
     },
   ],
