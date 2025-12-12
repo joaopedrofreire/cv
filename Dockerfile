@@ -18,7 +18,7 @@ FROM node:alpine
 WORKDIR /app
 
 # Install pnpm in production stage
-RUN npm install -g pnpm@8
+RUN npm install -g pnpm
 
 COPY --from=BUILD_STAGE /app/package.json ./package.json
 COPY --from=BUILD_STAGE /app/node_modules ./node_modules
